@@ -1,0 +1,58 @@
+/**
+    Author: Jeffery Kwok
+    Date: 4/17/22
+**/
+html {
+    background-color: green;
+  }
+
+  /** Headers **/
+
+h2 {
+    text-align: center;
+  }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /** Table **/
+
+table, th, td, tr {
+    border: 1px solid black;
+  }
+  
+table {
+    position: absolute;
+    width: 600px;
+    height: 250px;
+    background-color: lightgreen;
+    margin-top: 10%;
+    margin-left: 30%;
+  }
+
+  /** List **/
+
+ol {
+    vertical-align: center;
+  }
+
+  /** Image **/
+
+img {
+    width: 200px;
+    height: 150px;
+    border: 3px solid blue;
+    padding: 10px;
+    margin-left: 10%;
+  }
+  
+  /** Caption **/
+
+caption {
+    color: white;
+    caption-side: bottom;
+  }
+  
